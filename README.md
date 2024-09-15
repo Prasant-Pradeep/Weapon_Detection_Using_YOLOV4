@@ -35,7 +35,7 @@ The dataset contains images of various weapons, annotated for training the YOLOv
 "Image ID","Weapon Type","Bounding Box Coordinates","Width","Height"
 "image_001.jpg","Handgun","[100, 200, 150, 250]",50,50
 "image_002.jpg","Knife","[120, 220, 180, 300]",60,80
-
+```
 
 ## 🔨 Workflow & Key Steps
 
