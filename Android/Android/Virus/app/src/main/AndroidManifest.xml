@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ll"
+        android:label="Weapen Detection"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/ll"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Virus"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".userImageView"
+            android:exported="false" />
+        <activity
+            android:name=".ImageView"
+            android:exported="false" />
+        <activity
+            android:name=".SendReply"
+            android:exported="false" />
+        <activity
+            android:name=".Viewcomplaints"
+            android:exported="false" />
+        <activity
+            android:name=".Usersendcomplaint"
+            android:exported="false" />
+        <activity
+            android:name=".Userviewrequest"
+            android:exported="false" />
+        <activity
+            android:name=".Parentaddimageorvideo"
+            android:exported="false" />
+        <activity
+            android:name=".Uploadaudio"
+            android:exported="false" />
+        <activity
+            android:name=".Uploadvideo"
+            android:exported="false" />
+        <activity
+            android:name=".Addemergency"
+            android:exported="false" />
+        <activity
+            android:name=".Viewemergency"
+            android:exported="false" />
+        <activity
+            android:name=".Userhome"
+            android:exported="false" />
+
+        <service android:name=".LocationService" />
+
+        <activity
+            android:name=".MusicPlay"
+            android:exported="false" />
+        <activity
+            android:name=".Video_upload"
+            android:exported="false" />
+        <activity
+            android:name=".Audio_upload"
+            android:exported="false" />
+        <activity
+            android:name=".VideoPlay"
+            android:exported="false" />
+        <activity
+            android:name=".Policehome"
+            android:exported="false" />
+        <activity
+            android:name=".Videos"
+            android:exported="false" />
+        <activity
+            android:name=".Viewrequest"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Ipsettings"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity android:name="View_Random_Music"/>
+    </application>
+
+</manifest>

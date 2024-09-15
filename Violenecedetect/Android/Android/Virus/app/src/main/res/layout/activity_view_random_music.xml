@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+
+    android:background="@drawable/homepage"
+    android:orientation="vertical"
+
+    tools:context=".View_Random_Music">
+
+    <TextView
+        android:id="@+id/cathead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Search"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:textColor="#070707"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:drawablePadding="10dp"
+        android:layout_marginHorizontal="18dp"
+
+        android:padding="15dp"
+        android:textColor="@color/black"
+
+
+        android:inputType="textPersonName"
+        android:hint="Category or Songs" />
+
+    <ListView
+        android:id="@+id/music"
+
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="2dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>
