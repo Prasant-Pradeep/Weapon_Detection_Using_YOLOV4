@@ -1,4 +1,4 @@
-# 🔫 Weapon Detection System - Data Analytics Project using YOLOv4
+# 🔫 Weapon Detection System - Project using YOLOv4
 
 ## 📝 Objective
 
